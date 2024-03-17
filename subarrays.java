@@ -22,7 +22,6 @@ public class subarrays {
             for(int j=i; j<n; j++)
             {
                 int end=j;
-                int sum=0;
                 for(int k=start; k<=end; k++)
                 {
 
@@ -34,7 +33,7 @@ public class subarrays {
             }
             System.out.println();
         }
-        System.out.println("max sum "+ ""+max);
+       
 
 
     }
