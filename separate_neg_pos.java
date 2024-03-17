@@ -18,15 +18,14 @@ public class separate_neg_pos {
 
         for(int i=0; i<n; i++)
         {
-            if(arr[i]<0)
-            {
-                arr[i]=arr[i];
-            }
-            else {
-               int temp=arr[i];
-               arr[i]=arr[n-1];
-               arr[n-1]=temp;
-            }
+            if (arr[i] < 0) { 
+                 
+                    temp = arr[i]; 
+                    arr[i] = arr[j]; 
+                    arr[j] = temp; 
+                
+                j++; 
+            } 
         }
         for(int i=0; i<n; i++)
         {
